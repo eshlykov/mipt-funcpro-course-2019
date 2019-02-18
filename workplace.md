@@ -1,10 +1,10 @@
 # Рабочая среда
 
-[F#](https://fsharp.org/)
+[F#](https://fsharp.org/).
 
 ## Linux
 
-[F# для Linux](https://fsharp.org/use/linux/)
+[F# для Linux](https://fsharp.org/use/linux/).
 
 [Mono](https://www.mono-project.com) - проект по созданию кросплатформенного воплощения системы .NET Framework на базе свободного программного обеспечения. Чтобы использовать F# на Linux, нужно поставить Mono.
 
@@ -22,7 +22,7 @@
 
 ## Windows
 
-[F# для Windows](https://fsharp.org/use/windows/)
+[F# для Windows](https://fsharp.org/use/windows/).
 
 Mono не требуется.
 
