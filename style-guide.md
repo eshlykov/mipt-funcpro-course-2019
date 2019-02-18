@@ -1,3 +1,5 @@
+# Стайл-гайд
+
 [Полный стайл-гайд](https://docs.microsoft.com/en-us/dotnet/fsharp/style-guide/formatting).
 
 Главное:
