@@ -20,7 +20,7 @@ let seqInitInfinite initializer = failwith "Not implemented"
 let seqUnfold generator state = failwith "Not implemented"
 
 // Задание 5 (1 балл). Протестируйте вашу функцию seqUnfold, получив с ее
-// помощью последовательность 0, 1, 2, 2, 3, 5, ... (числа Фибоначчи).
+// помощью последовательность 0, 1, 1, 2, 3, 5, ... (числа Фибоначчи).
 let fibonaccies = failwith "Not implemented"
 
 // Задание 6 (1 балл). Реализовать функцию Seq.chunkBySize без использования
