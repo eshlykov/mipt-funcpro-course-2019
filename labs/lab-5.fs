@@ -13,17 +13,17 @@ let rec has key bst = false
 // Вернуть дерево bst после вставки в него узла со ключом key
 let rec insert key bst = Nil
 
-// min : 'T Bst -> 'T Bst
+// min : 'T Bst -> 'T Bst (2 балла)
 // Вернуть наиболее глубокий узел дерева bst с минимальным ключом
 // (либо Nil, если такого нет)
 let rec min bst = Nil
 
-// next : 'T -> 'T Bst -> 'T Bst
+// next : 'T -> 'T Bst -> 'T Bst (2 балла)
 // Вернуть некоторый узел дерева bst с наименьшим ключом,
 // большим ключа key (либо Nil, если такого нет)
 let next key bst = Nil
 
-// remove : 'T -> 'T Bst -> 'T Bst
+// remove : 'T -> 'T Bst -> 'T Bst (2 балла)
 // Вернуть bst после удаления ключа key (если таких несколько, то удалить надо
 // только один)
 let rec remove key bst = Nil
@@ -85,6 +85,12 @@ checkBst (insert 1) bst02 (Node (42, Node (1, Nil, Nil), Nil))
 checkBst (insert 42) bst03 (Node (42, (Node (42, Node (24, Nil, Nil), Nil)), Nil))
 checkBst (insert 43) bst04 (Node (43, Node (43, Node (42, Nil, Nil), Nil), Nil))
 checkBst (insert 14) bst05 (Node (13, Node (13, Node (13, Nil, Nil), Nil), Node (14, Node (14, Nil, Nil), Nil)))
+
+checkBst min bst01 Nil
+checkBst min bst02 (Node (42, Nil, Nil))
+checkBst min bst03 (Node (24, Nil, Nil))
+checkBst min bst04 (Node (42, Nil, Node (43, Nil, Nil)))
+checkBst min bst05 (Node (13, Nil, Nil))
 
 checkBst (next 48) bst01 Nil
 checkBst (next 42) bst02 Nil
